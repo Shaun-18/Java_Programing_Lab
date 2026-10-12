@@ -1,10 +1,12 @@
-import java.util.Scanner;
-public class ShopingTotal {
-Sring ProNane = " ";
-double price =0;
-int quantity = 0;
-  double discount = 0;
-    Scanner myObj = new Scanner();
+
+public class ShoppingTotal {
+String ProNane = "Vaseline";
+double price =12.50;
+int quantity = 19;
+  double discount = 0.25;
+
+ double AmtDue =price * quantity-(price * quantity) * discount ;
+
 
 
 }
