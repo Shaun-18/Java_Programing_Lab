@@ -8,7 +8,8 @@ TemperatureConversion convert = new TemperatureConversion();
 convert.gettemp();
 PassorFail grade = new PassorFail();
 grade.getGrade();
-
+GradeCalculator grades = new GradeCalculator();
+grades.getGrades();
 
 
 
