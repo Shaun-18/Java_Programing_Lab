@@ -14,6 +14,8 @@ NumberAnalysis analysis = new NumberAnalysis();
 analysis.getAnalysis();
 LogicCheck check = new LogicCheck();
 check.getLogit();
+StoreStudentMarks storedmarks = new StoreStudentMarks();
+storedmarks.StudentMarks();
 
 
 
