@@ -10,6 +10,8 @@ PassorFail grade = new PassorFail();
 grade.getGrade();
 GradeCalculator grades = new GradeCalculator();
 grades.getGrades();
+NumberAnalysis analysis = new NumberAnalysis();
+analysis.getAnalysis();
 
 
 
