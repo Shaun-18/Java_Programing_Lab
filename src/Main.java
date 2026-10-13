@@ -18,7 +18,8 @@ StoreStudentMarks storedmarks = new StoreStudentMarks();
 storedmarks.StudentMarks();
 ArrayStatistics stats = new ArrayStatistics();
 stats.getStats();
-
+ArraySearch search = new ArraySearch();
+search.Search();
 
     }
 
