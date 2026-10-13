@@ -12,6 +12,8 @@ GradeCalculator grades = new GradeCalculator();
 grades.getGrades();
 NumberAnalysis analysis = new NumberAnalysis();
 analysis.getAnalysis();
+LogicCheck check = new LogicCheck();
+check.getLogit();
 
 
 
