@@ -1,5 +1,8 @@
 public class TemperatureConversion {
-    int TempCelsius = 60;
+  public void gettemp(){
+      int TempCelsius = 60;
 
-    double fahrenheit = (TempCelsius * 9 / 5) + 32;
+      double fahrenheit = (TempCelsius * 9 / 5) + 32;
+      System.out.println("Your converted results are: " + fahrenheit);
+  }
 }

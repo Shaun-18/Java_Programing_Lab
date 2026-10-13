@@ -1,16 +1,16 @@
 
 void main() {
     StudentDetails student = new StudentDetails();
+    student.getDATA();
 ShoppingTotal total = new ShoppingTotal();
-TemperatureConversion covenvert = new TemperatureConversion();
+total.getPrice();
+TemperatureConversion convert = new TemperatureConversion();
+convert.gettemp();
+PassorFail grade = new PassorFail();
+grade.getGrade();
 
-    System.out.println("Student Name: " + student.StuName);
-    System.out.println("Age: " + student.age);
-    System.out.println("Average Mark: " + student.AvgMark);
-    System.out.println("Registered: " + student.isReg);
 
-    System.out.println("Your Total is: "+ total.AmtDue);
 
-    System.out.println(covenvert.fahrenheit);
+
     }
 
