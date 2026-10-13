@@ -20,6 +20,7 @@ ArrayStatistics stats = new ArrayStatistics();
 stats.getStats();
 ArraySearch search = new ArraySearch();
 search.Search();
-
+EvenOddArray even_odd = new EvenOddArray();
+even_odd.EvenOdd();
     }
 

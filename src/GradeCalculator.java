@@ -3,7 +3,7 @@ public class GradeCalculator {
         double mark = 72;
         String grade;
 
-        if(mark >= 0 || mark <= 100){
+        if(mark >= 0 && mark <= 100){
             if (mark <= 49 ){
                 grade = "Fail";
             } else if(mark >= 50 && mark <= 69){
