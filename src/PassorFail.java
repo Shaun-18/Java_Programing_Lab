@@ -9,5 +9,8 @@ public void getGrade(){
         grade = "Fail";
     }
     System.out.println(grade);
+
+    System.out.println("-----End of lab---------");
 }
+
 }

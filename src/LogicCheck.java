@@ -10,5 +10,6 @@ public class LogicCheck {
         } else {
             System.out.println("Invalid Credentials");
         }
+        System.out.println("-----End of lab---------");
     }
 }

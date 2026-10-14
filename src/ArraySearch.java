@@ -20,5 +20,7 @@ public class ArraySearch {
         } else {
             System.out.println("Value not found");
         }
+        System.out.println("-----End of lab---------");
     }
+
 }

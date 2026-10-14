@@ -18,5 +18,7 @@ public class ArrayStatistics {
         System.out.println("The lowest is: "+ lowest);
         System.out.println("The are "+ number.length + " elements in this Array");
         System.out.println("There are/is: " + highCount + " Numbers that are above 50");
+
+        System.out.println("-----End of lab---------");
     }
 }

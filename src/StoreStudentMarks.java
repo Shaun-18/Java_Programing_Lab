@@ -12,6 +12,6 @@ public class StoreStudentMarks {
         System.out.println("The sum is: "+ sum);
         System.out.println("The Average is: "+ average);
 
-
+        System.out.println("-----End of lab---------");
     }
 }

@@ -12,5 +12,9 @@ public class StudentDetails {
         System.out.println("Age: " + age);
         System.out.println("Average Mark: " + AvgMark);
         System.out.println("Registered: " + isReg);
+
+
+
+        System.out.println("-----End of lab---------");
     }
 }

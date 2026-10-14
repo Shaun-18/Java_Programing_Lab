@@ -14,6 +14,7 @@ public class NumberAnalysis {
         } else {
             System.out.println("This Number is Odd");
         }
+        System.out.println("-----End of lab---------");
     }
 
 

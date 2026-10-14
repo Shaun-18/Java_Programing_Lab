@@ -18,5 +18,7 @@ public class GradeCalculator {
             grade = "Invalid";
         }
         System.out.println("Your grade is: " + grade);
+
+        System.out.println("-----End of lab---------");
     }
 }

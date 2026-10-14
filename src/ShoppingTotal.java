@@ -8,6 +8,8 @@ public class ShoppingTotal {
 
         double AmtDue =price * quantity-(price * quantity) * discount ;
         System.out.println("Your Total is: "+ AmtDue);
+
+        System.out.println("-----End of lab---------");
     }
 
 
