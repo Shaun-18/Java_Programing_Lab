@@ -48,7 +48,7 @@ reverse.Reverse();
 
 StudentClass studentClass1 = new StudentClass("Kagiso", "218044682", 90);
 studentClass1.displayDetails();
-StudentClass studentClass2 = new StudentClass("Shaun", "226044682", 63);
+StudentClass studentClass2 = new StudentClass("Shaun", "226044682", 45);
 studentClass2.displayDetails();
 
 }

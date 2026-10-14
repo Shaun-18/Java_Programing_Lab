@@ -10,7 +10,7 @@ public class StudentClass {
         this.mark = mark;
     }
     void displayDetails(){
-        System.out.println("name: "+name +" Student Number: " + studentnumber + " Mark: " + mark);
+        System.out.println("name: "+name +" Student Number: " + studentnumber + " Mark: " + mark + " Has passed " + hasPassed(mark));
     }
     boolean hasPassed( double mark){
        if ( mark >= 50){
