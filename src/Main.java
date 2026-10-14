@@ -43,7 +43,8 @@ search.Search();
 EvenOddArray even_odd = new EvenOddArray();
 even_odd.EvenOdd();
 
-
+ReverseArray reverse = new ReverseArray();
+reverse.Reverse();
 
 
 }
