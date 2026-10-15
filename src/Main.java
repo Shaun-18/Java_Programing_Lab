@@ -53,5 +53,8 @@ studentClass2.displayDetails();
 
 BankAccount bankAccount = new BankAccount("K Molefe", "123456789", 3000);
 bankAccount.display();
+
+Product product = new Product("123456", "StaSoft", 50, 23.50);
+product.displayProduct();
 }
 
