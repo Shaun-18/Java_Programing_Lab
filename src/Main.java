@@ -56,5 +56,11 @@ bankAccount.display();
 
 Product product = new Product("123456", "StaSoft", 50, 23.50);
 product.displayProduct();
+
+Rectangle rectangle1 = new Rectangle(7.2, 25.3);
+rectangle1.displayResults();
+    Rectangle rectangle2 = new Rectangle(5.5, 20);
+    rectangle2.displayResults();
 }
+
 
