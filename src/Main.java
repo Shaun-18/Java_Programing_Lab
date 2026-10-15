@@ -51,5 +51,7 @@ studentClass1.displayDetails();
 StudentClass studentClass2 = new StudentClass("Shaun", "226044682", 45);
 studentClass2.displayDetails();
 
+BankAccount bankAccount = new BankAccount("K Molefe", "123456789", 3000);
+bankAccount.display();
 }
 
