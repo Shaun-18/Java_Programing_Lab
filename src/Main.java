@@ -61,6 +61,8 @@ Rectangle rectangle1 = new Rectangle(7.2, 25.3);
 rectangle1.displayResults();
     Rectangle rectangle2 = new Rectangle(5.5, 20);
     rectangle2.displayResults();
-}
+
+    StudentResultsSystem resultsSystem = new StudentResultsSystem("Kagiso", "123456", 90, 89, 60);
+    resultsSystem.displayStudent();
 
 
