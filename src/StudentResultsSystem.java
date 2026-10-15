@@ -23,19 +23,24 @@ public class StudentResultsSystem {
       }
    public boolean isGrade(){
       if (average() >= 50){
+         System.out.println("Student has passed");
          return true;
+
       } else {
+         System.out.println("Failed");
          return false;
       }
    }
-   void passcount(){
-      int passcounter = 0;
-      if (isGrade() = true){
-         passcounter++;
-      }
+//   void passcount(){
+//      int passcounter = 0;
+//      if (isGrade() = true){
+//         passcounter++;
+//      }
+//   public boolean hasPassed(){
+//      return true;
 
-   }
+
    void displayStudent(){
-      System.out.println("Student name: "+ stuName + " Student Number "+ stuNumber + " Average " + average() + " Passed? " );
+      System.out.println("Student name: "+ stuName + " Student Number "+ stuNumber + " Average " + average() + " Passed?  "+  isGrade() );
    }
 }
